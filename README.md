@@ -1,4 +1,5 @@
 # TrafficPatternRecognition-AI-at-night-to-control-switching-of-RoadLamps-to-MinimizePowerConsumption
+
 Collecting videos of traffic at night which is processed using vehicle detection model to obtain relevant traffic frequency dataset which is preprocessed before feeding it into traffic_frequency_prediction model.  this traffic_frequency_prediction model is implemented using tensorflow which is further deployed on raspberry pi with movidius neural compute stick to control street lights in real time.
 
 ## IMPLEMENTATION:
@@ -6,6 +7,9 @@ Collecting videos of traffic at night which is processed using vehicle detection
 Collecting videos of traffic at night which is processed using vehicle detection model to obtain relevant traffic frequency dataset which is preprocessed before feeding it into traffic_frequency_prediction model.
 
 this traffic_frequency_prediction model is implemented using tensorflow which is further deployed on raspberry pi with movidius neural compute stick to control street lights in real time.
+
+## HARDWARE USED:
+Raspberry pi 3B+, intel neural compute stick 2
 
 ## CONCLUSION:
 
